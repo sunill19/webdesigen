@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Company Poster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #poster {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.458);
+            text-align: center;
+        }
+         #poster:hover{
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 30px;
+            box-shadow: 0 0 20px rgba(2, 11, 134, 0.905);
+            text-align: center;
+        }
+
+        h1 {
+            color: #660808d6;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        p {
+            color: #db0808;
+        }
+
+        img {
+            width: 80%;
+            max-width: 200px;
+            margin-top: 20px;
+        }
+
+        #contact {
+            margin-top: 20px;
+            font-size: 16px;
+            background-color: Yellow;
+        }
+        .icon{
+            font-size: 25px;
+            display: inline;
+            text-shadow: #a74476d6;
+        }
+        .scrolling-text-container {
+            width: 100%;
+            overflow: hidden;
+            background-color: aqua;
+        }
+
+        .scrolling-text {
+            white-space: nowrap;
+            animation: scrollText 10s linear infinite; /* Adjust the duration as needed */
+            color: #050505d6;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:15px;
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .spinning-image {
+    animation: spin 4s linear infinite;
+    transform-style: preserve-3d;
+  }
+
+  @keyframes spin {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+
+
+    </style>
+</head>
+<body>
+<div id="poster">
+    <img src="C:\Users\DELL\Desktop\N\img\your-company-logo.png.jpg" alt="Company Logo" class="spinning-image">
+<h1>SUNIL NISHAD</h1>
+    <h1>Your Web Design Partner</h1>
+    <p>Creating Stunning Websites</p>
+    <p><i>Web Design | UX/UI | Graphics</p>
+    <p>content Writing | Photo editing </i></p>
+    <p>Contact us today at<br>
+        <div class="scrolling-text-container">
+            <p class="scrolling-text"><b> [Phone Number : 9616265211] | [Email Address: sunilkumar123519@gmail.com]</b></p>
+        </div>
+        </p>
+    <li class="icon"><a href="https://www.instagram.com/sunill.x2?igsh=emQxbzl3dHoydGhw">Visit My Profile<i class="fab fa-instagram"></i></a></li>
+</div>
+
+</body>
+</html>
